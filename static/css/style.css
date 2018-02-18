@@ -1,0 +1,62 @@
+body{
+    background : url("color.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+      width :700px;
+      margin-top : 50px ;
+      margin-left : 310px;
+      background-color : #ffeaa7;
+      padding : 5px;
+      border-radius : 10px;
+      border : 2px solid #2980b9;
+ }
+
+ h1{
+    color : #d63031;
+    text-align = center;
+ }
+
+h3{
+    color : #0984e3;
+    text-align = center;
+ }
+
+.fields{
+    background-color: #130f40;
+    text-align: center;
+    width : 150px;
+    padding : 5px;
+    border-radius : 10px;
+    border : 2px solid #2980b9;
+    float : left;
+}
+.inputs{
+    color : azure;
+    font-size : 18px;
+}
+
+.name{
+    width:350px;
+    margin-left : 70px;
+    padding:7px;
+    border : 2px solid #95afc0;
+}
+
+.r_button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding-top : 15px;
+    padding-bottom: 15px;
+    padding-left : 25px;
+    padding-right : 25px;
+    text-align: center;
+    margin-left: 250px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

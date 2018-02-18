@@ -1,0 +1,35 @@
+{% load static %}
+
+<html>
+<head>
+    <title>
+        Home Page
+    </title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class = "container">
+        <center>
+        <h1>SMS Service App</h1>
+        <h3>Enter the mobile number with the proper country code include the '+'  sign before it</h3>
+            {% if error_message %}<h4><strong>{{ error_message }}</strong></h4>{% endif %}</center>
+        <form method="post" action="sms_app/home">
+            {% csrf_token %}
+            <br><br>
+            <div class = "fields">
+                <label class="inputs">Name</label>
+            </div>
+            <input type = "text" class = "name" name = "name" placeholder ="e.g Hasan" required>
+            <br><br>
+            <div class = "fields">
+                <label class="inputs">Mobile Number</label>
+            </div>
+            <input type = "text" class = "name" name = "number" placeholder ="e.g +9183256898745" required>
+            <br><br>
+            <input type="submit" class = "r_button" value = "Submit"/>
+        </form>
+
+    </div>
+
+</body>
+</html>
