@@ -33,5 +33,5 @@ requests==2.2.1
 shortuuid==0.5.0
 six==1.11.0
 twilio==5.4.0
-urllib3==1.22
+urllib3==1.24.2
 vine==1.1.4
