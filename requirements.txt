@@ -16,7 +16,7 @@ django-oauth2-provider==0.2.6.1
 django-timezones==0.2
 enum34==1.1.6
 ephem==3.7.6.0
-html5lib==0.999
+html5lib==0.999999999
 HTMLParser==0.0.2
 httplib2==0.8
 idna==2.6
