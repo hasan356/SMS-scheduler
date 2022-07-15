@@ -9,7 +9,7 @@ chardet==3.0.4
 cryptography==2.1.4
 Django==1.9.7
 django-celery-beat==1.1.0
-django-celery-results==1.0.1
+django-celery-results==2.4.0
 django-common-helpers==0.8.0
 django-cron==0.4.6
 django-oauth2-provider==0.2.6.1
